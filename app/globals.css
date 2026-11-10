@@ -1,0 +1,5 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+html{scroll-behavior:smooth}body{background:#f4f2ec;color:#16181c}
+.btn{@apply inline-block rounded-full bg-ink px-6 py-3 font-semibold text-paper transition hover:bg-volt disabled:opacity-40}
+.inp{@apply w-full rounded-lg border border-ink/20 bg-white p-3 mb-3}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
